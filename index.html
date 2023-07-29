@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="celular.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Ano de nascimento
+                <input type="number" name="nasc" id="nasc" min="1">
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="sexo" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="sexo" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="enviar" onclick="enviar()" class="botao">
+            </p>
+        </div>
+        <div id="res"></div>
+    </section>
+    <footer>
+        <p>
+            <a href="http://twitter.com/Brennus_Brennus" target="_blank">&copy;BrennusBrennus</a>
+        </p>
+    </footer>
+    <script src="style.js"></script>
+</body>
+</html>
